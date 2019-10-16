@@ -1,0 +1,176 @@
+@charset="utf-8";
+*{
+    font-family: SimSun,'宋体', sans-serif;
+    /*box-sizing:border-box;*/
+}
+a{text-decoration:none;}
+html{font-size:62.5%;}  /*chorme下设置为10px无效，推荐设置为20px，1rem=20px*/
+/* @media screen and (max-width:768px){    手机屏幕
+html{font-size: 15px;} 
+}
+@media screen and (min-width: 768px) and (max-width:992px){  平板屏幕
+html{font-size: 20px;}
+}
+@media screen and (min-width: 992px){   电脑屏幕
+html{font-size: 25px;}
+}  */
+.clearfix:after{visibility:hidden;display:block;font-size:0;content: " ";clear:both;height:0;}
+.clearfix{*zoom:1;}
+
+.fl{float:left;}
+.fr{float:right;}
+/* img{
+	width:100%;
+    height:100%;
+} */
+
+ /*主体开始*/
+
+/*.wrap>div:not(.marketDiv){
+  margin-top:10px;
+}*/
+
+.wrap .goodProductDiv{
+  width:1192px;
+  height:658px;
+  margin-top:10px;
+  background-color: pink;
+ } 
+.wrap .goodProductDiv .good_L{
+  width:591px;
+  height:658px;
+  /*margin-right:10px;*/
+  background-color: blue;
+ } 
+.wrap .goodProductDiv .good_R{
+  width:591px;
+  height:658px;
+  background-color: cyan;
+ } 
+ /*第四区，淘抢购*/
+ .wrap .quickShopDiv{
+  width:1192px;
+  height:265px;
+  margin-top:10px;
+  background-color: pink;
+ } 
+.wrap .quickShopDiv .quick_top{
+  width:1192px;
+  height:65px;
+  background-color: blue;
+ } 
+.wrap .quickShopDiv .quick_bottom{
+  width:1192px;
+  height:200px;
+  background-color: cyan;
+ }
+.wrap .quickShopDiv .quick_bottom>div{
+  height:200px;
+}
+.wrap .quickShopDiv .quick_bottom .shop_L{
+  width:415px;
+  background-color: yellow;
+ } 
+.wrap .quickShopDiv .quick_bottom .shop_C{
+  width:400px;
+  background-color: cyan;
+ } 
+.wrap .quickShopDiv .quick_bottom .shop_R{
+  width:377px;
+  background-color: purple;
+ }  
+ /*清仓甩卖区*/
+.wrap .clearShopDiv{
+  width:1192px;
+  height:69px;
+  margin-top:10px;
+  background-color: pink;
+ } 
+.wrap .shopRoom{
+  width:1192px;
+  height:538px;
+  margin-top:10px;
+  background-color: pink;
+ }
+ .wrap .shopRoom>div{
+  width:591px;
+  height:538px;
+  border:20px solid red;
+  box-sizing: border-box;
+ }
+ .wrap .shopRoom .shop_room{
+  background-color: pink;
+ }
+.wrap .shopRoom .shop_room .shop_room_top{
+  width:551px;
+  height:250px;
+  background-color: green;
+ }
+.wrap .shopRoom .shop_room .shop_room_bottom{
+  width:551px;
+  height:250px;
+  background-color: blue;
+ }
+ .wrap .shopRoom .shop_video{
+  background-color: pink;
+ }
+.wrap .shopRoom .shop_video .shop_video_top{
+  width:551px;
+  height:250px;
+  background-color: green;
+ }
+.wrap .shopRoom .shop_video .shop_video_bottom{
+  width:551px;
+  height:250px;
+  background-color: blue;
+ }
+ /*时尚爆料王区*/
+ .wrap .niceDiv{
+  width:1192px;
+  height:290px;
+  margin-top:10px;
+  background-color: blue;
+ }
+ .wrap .niceDiv .niceDiv_L{
+  width:840px;
+  height:290px;
+  background-color: gray;
+ }
+  .wrap .niceDiv .niceDiv_L_T{
+  width:840px;
+  height:53px;
+  background-color: green;
+ }
+.wrap .niceDiv .niceDiv_L_B{
+  width:840px;
+  height:237px;
+  background-color: red;
+ }
+ .wrap .niceDiv .niceDiv_L_B>div{
+  width:280px;
+  height:237px;
+  background-color: blue;
+ }
+ .wrap .niceDiv .niceDiv_L_B .niceDiv_LB_l{
+  background-color: pink;
+ }
+  .wrap .niceDiv .niceDiv_L_B .niceDiv_LB_c{
+  background-color: yellow;
+ }
+  .wrap .niceDiv .niceDiv_L_B .niceDiv_LB_r{
+  background-color: cyan;
+ }
+  .wrap .niceDiv .niceDiv_R{
+  width:321px;
+  height:290px;
+  background-color: green;
+ }
+
+img{border:none;}
+/*占位调试的div*/
+.aaa{
+    width:2000px;
+    height:500px;
+    background: red;
+    margin-top:100px;
+}
